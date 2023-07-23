@@ -1,0 +1,37 @@
+#main {
+  height: 100vh;
+  background: url("../img/login.webp");
+  /* background: url("../../../assets/images/Login.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#info {
+  border-radius: 5px;
+  color: var(--bs-white);
+  background-color: rgba(0, 0, 0, 0.35);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+/* @media (min-width: 576px) {
+  #info {
+    max-width: 400px;
+  }
+} */
+
+#form-login {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#ventaspro-logo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
